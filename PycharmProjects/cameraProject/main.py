@@ -32,6 +32,8 @@ while rval:
     if prevx - x != 0 and prevy - y != 0:
         print(f"Face dectected! {x}, {y}")
 
+    # change values to previous ones
+
     prevx = x
     prevy = y
 
